@@ -1,0 +1,30 @@
+/* ------ Ajuste para responsive en telefonos moviles --------*/
+
+@media (max-width: 600px) {
+    .products {
+        display: inherit;
+        max-height: 0%;
+    }
+
+    .product {
+        margin-top: auto;
+    }
+
+    .main_section {
+        padding: 4%;
+    }
+
+    .main_beneficios {
+        display: inherit;
+    }
+
+    .mencions {
+        display: inherit;
+        margin: 10%;
+    }
+
+    .img_container img {
+        width: 100%;
+    }
+
+}

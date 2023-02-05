@@ -1,0 +1,59 @@
+/*-------- Animacion de Main Sectcion --------*/
+
+.fadeIn {
+    animation-duration: 4s;
+    animation-fill-mode: both;
+    animation-name: fadeIn;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+/*-------- Finaliza animacion de Main Sectcion --------*/
+
+/*-------- Animacion de navbar --------*/
+
+.fadeInDown {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInDown;
+}
+
+@keyframes fadeInDown {
+    from {
+        opacity: 0;
+        transform: translate3d(0,-100%,0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+/*-------- Finaliza animacion de navbar --------*/
+
+/*-------- Animacion de seccion de procductos --------*/
+
+.fadeInUp {
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-name: fadeInUp;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translate3d(0,100%,0);
+    }
+    to {
+        opacity: 1;
+        transform: translate3d(0,0,0);
+    }
+}
+
+/*-------- Animacion de seccion de procductos --------*/

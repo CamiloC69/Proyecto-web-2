@@ -1,0 +1,223 @@
+/*------ Variables--------*/
+
+:root {
+--pink-color: #d58786;
+--white-color: white;
+
+/*Espaciado*/
+
+--space: 10px;
+
+/* Font size */
+
+--font-size: 14px;
+
+}
+
+
+/*------ Variables--------*/
+
+/* ----- Estilos en general del archivo HTML -----*/
+
+html,body {
+    padding: 0;
+    margin: 0;
+    font-size: 14px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Oswald', sans-serif;
+}
+
+label {
+    font-size: var(--font-size);
+}
+
+/* ----- Finaliza estilos en general del archivo HTML -----*/
+
+/* ----- Estilos del navbar -----*/
+
+nav {
+    background-color: var(--pink-color);
+    padding: var(--space);
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 92px;
+}
+
+nav, ul {
+    display: flex;
+}
+
+nav, li {
+    padding-right: var(--space);
+    align-items: center;
+    list-style: none;
+}
+
+nav, li, a {
+    color: black;
+    text-decoration: none;
+}
+
+nav, li, a:hover {
+    color: var(--white-color);
+}
+
+/* ----- Finaliza estilos del navbar -----*/
+
+/* ----- Texto del main section -----*/
+
+.main_section {
+    padding: 20%;
+    text-align: center;
+}
+
+/* ----- Finaliza estilo de texto del main section -----*/
+
+/* ----- Estilos de la seccion de productos -----*/
+
+.products {
+    background-image: url(../images/Trazado\ 1.png);
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 25%;
+    display: flex;
+    justify-content: center;
+}
+
+.product {
+    padding: var(--space);
+    margin-top: -240px;
+}
+
+.product .content {
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: 0 0 4px #b3b3b3;
+}
+
+.img_content {
+    text-align: center;
+}
+
+.main_button {
+    background-color: var(--pink-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: 12px;
+    color: var(--white-color);
+    border: 0;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.main_button:hover {
+    background-color: #836362;
+}
+
+/* ----- Estilos de la seccion de productos -----*/
+
+/* ----- Estilos de la seccion de beneficios -----*/
+
+.main_beneficios {
+    display: flex;
+    justify-content: center;
+}
+
+.description_bene {
+    margin: 10%;
+    margin-bottom: 5%;
+}
+
+/* ----- Finaliza estilos de la seccion de beneficios -----*/
+
+/* ----- Estilos de la seccion de menciones -----*/
+
+.main_mencions {
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 4%;
+}
+
+.mencions {
+    display: flex;
+    justify-content: center;
+}
+
+
+.mencion {
+    padding: 10px;
+}
+
+.mencion .content {
+    background-color: white;
+    padding: 0;
+    box-shadow: 0 0 4px #b3b3b3;
+}
+
+.img_container img {
+    object-fit: cover;
+}
+
+.content h1, p {
+    margin: 0;
+    padding: 0px 10px 15px 10px;
+}
+
+/* ----- Finaliza estilos de la seccion de menciones -----*/
+
+/* ----- Ajustes a las columnas -----*/
+
+.col-8 {
+    margin: auto;
+}
+
+.col-8, .col-4 {
+    padding-bottom: 20%;
+    margin-top: 10%;
+}
+
+/* ----- Finaliza ajustes a las columnas -----*/
+
+/* ----- Estilos de la seccio de ventas -----*/
+
+.modulo_pago {
+    background-color: var(--white-color);
+    box-shadow: 0 0 4px #b3b3b3;
+    padding: var(--space);
+}
+
+.modulo_img img{
+    max-width: 150px;
+
+}
+.modulo_img {
+    width: 100%;
+    margin: auto;
+    text-align: center;
+}
+
+.data {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 35px;
+    border-radius: 2px;
+    border: 1px solid;
+    box-sizing: border-box;
+}
+
+.modulo_pago .main_button {
+    margin-top: 10px;
+}
+/* ----- Finaliza estilos de la seccio de ventas -----*/
+
+
+
